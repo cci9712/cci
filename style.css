@@ -1,0 +1,178 @@
+/* 浮动效果 */
+.head{
+    position: fixed;
+    float:left;
+    height: 3rem;
+ width:100%;
+    right:0;
+top: 0;
+z-index: 999;
+background-color: rgba(255, 255, 255, 0.703);
+
+}
+*{
+    /* border: 1px solid black; */
+}
+.flex{
+    display: flex;
+}
+.huise{
+    background-color:#F5F5F5;
+}
+.column{
+    flex-direction: column;
+}
+.mtg{
+    margin-top: 10px;
+    
+}
+.flex1{
+    flex: 1;
+}
+.huibai{
+    background-image: linear-gradient(to rigth,rgb(204, 203, 203),#fff);
+}
+
+ul{
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+ 
+}
+.jstou{
+    justify-content: space-around;
+   letter-spacing: 1px;
+
+
+}
+
+ .txzuo{
+    
+margin: 200px;
+
+ }
+ .flex2{
+     flex:2
+ }
+ .jsyou{
+     justify-content: end;
+ }
+ .hangao{
+     line-height: 5px;
+ }
+ a{
+     text-decoration: none;
+ }
+ .mg10{
+     margin: 10px;
+ }
+ .mlrg{
+     margin-left: 100px;
+     margin-right: 100px;
+     padding-left: 40px;
+     padding-right: 40px;
+ }
+ 
+ .yuedu{
+     text-align: left;
+ }
+ .bixv{
+     background-color: #de284a;
+     color: #F5F5F5;
+margin-left: 680px;
+
+
+}
+.pingfen{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mg20{
+    margin: 20px 15px;
+}
+.hangao50{
+    line-height: 50px;
+}
+.spjuzhon{
+    justify-content: center;
+}
+.wzjz{
+    text-align: center;
+}
+.wzhg{
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.kzdq{
+    justify-content: flex-start;
+}
+.baise{
+    color: #fff;
+}
+.zhuis{
+    color:rgb(204, 203, 203) ;
+}
+.jshg{
+    line-height: 50px;
+}
+.hangao40{
+    line-height: 40px;
+}
+.xxmtg{
+    margin-top: 70px;
+}
+
+.jsxianton{
+    justify-content: space-around;
+}
+
+.wzjj{
+ font-size: 30px;
+ text-align: center;
+}
+.juneijj{
+    font-size: 20px;
+}
+@media(max-width:600px){
+    .xinping{
+        flex-direction: column;
+    }
+    .canxiao{
+        flex-direction: column;
+    }
+    .renwu{
+        flex-direction: column;
+    }
+    .pinfen{
+        flex-direction: column;
+    }
+    .santiao{
+        flex-direction: column;
+    }
+    .wdbok{
+        flex-direction: column;
+    }
+.sytp{
+    margin: 8px 0 0 ;
+    flex: auto;
+}
+
+}
+
+.heise{
+    color: black;
+}
+.aabaise{
+    color:#fff
+}
+.neme{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #f4f1f118;
+    background-color: rgb(28, 28, 28);
+    text-indent: 10px;
+   
+    
+
+}
